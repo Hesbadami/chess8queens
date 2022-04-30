@@ -1,6 +1,6 @@
 # 8 Queens Puzzle
 
-This is an attempt to solve the famous [Eight queen puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle) using python.
+This is an attempt to solve the famous [Eight queens puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle) using python.
 
 As you can try for yourself, the brute force method is too slow, as there are 64\*63\*62\*61\*60\*59\*58\*57 ~ 1.8\*10^14 ways you can arrange 8 queens on one chess board. Even using numba compiler which increases the speed by 10 times isn't enough.
 

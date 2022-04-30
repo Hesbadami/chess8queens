@@ -1,5 +1,6 @@
 import numpy as np
 import numba
+from time import time
 
 rng = np.random.default_rng()
 qq = "♕"
@@ -120,4 +121,8 @@ def game(pt1):
     return positions
 
 
+a = time()
 printboard(game(pt1))
+b = time()
+
+print("Time: ", round(b-a, 2), "Seconds")
